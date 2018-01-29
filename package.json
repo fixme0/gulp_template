@@ -1,0 +1,41 @@
+{
+  "name": "gulp_template--landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-cheerio": "^0.6.3",
+    "gulp-cli": "^2.0.1",
+    "gulp-debug": "^3.2.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-remember": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svg-sprites": "^4.1.2",
+    "gulp-svgmin": "^1.2.4",
+    "postcss-automath": "^1.0.1",
+    "postcss-inline-svg": "^3.0.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-partial-import": "^4.1.0",
+    "postcss-position": "^1.0.0",
+    "postcss-selector-matches": "^3.0.1",
+    "postcss-simple-vars": "^4.1.0",
+    "postcss-size": "^2.0.0",
+    "postcss-url": "^7.3.0",
+    "sugarss": "^1.0.1"
+  }
+}
