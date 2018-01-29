@@ -5,6 +5,7 @@ global.$ = {
   src: path.resolve(__dirname, 'src'),
   dist: path.resolve(__dirname, 'dist'),
   css: path.resolve(__dirname, 'src/css'),
+  js: path.resolve(__dirname, 'src/js'),
   template: path.resolve(__dirname, 'src/index.pug'),
   server: require('browser-sync').create(),
   gulp: require('gulp'),
@@ -15,4 +16,4 @@ global.$ = {
 
 tasks.map(task => require(task)());
 
-$.gulp.task('dev', $.gulp.parallel('pug:dev', 'css:dev', 'copy:img:dev', 'copy:fonts', 'svg', $.gulp.series('watch')) );
+$.gulp.task('dev', $.gulp.parallel('pug:dev', 'css:dev', 'js:dev', 'copy:img:dev', 'copy:fonts', 'svg', $.gulp.series('watch')) );

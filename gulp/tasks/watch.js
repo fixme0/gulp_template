@@ -12,5 +12,7 @@ module.exports = () => {
     $.gulp.watch('./src/fonts/**/*.*', $.gulp.series('copy:fonts'));
     // svg
     $.gulp.watch('./src/img/svg/**/*.*', $.gulp.series('svg'));
+    // js
+    $.gulp.watch('./src/js/**/*.js', $.gulp.series('js:dev'));
   });
 };

@@ -9,6 +9,7 @@ module.exports = () => {
         `${$.dist}/*.html`,
         `${$.dist}/css/*.css`,
         `${$.dist}/img/**/*`,
+        `${$.dist}/js/*.js`,
       ],
       port: 8002,
       logLevel: 'info',
