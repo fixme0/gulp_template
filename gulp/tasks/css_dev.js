@@ -7,6 +7,7 @@ module.exports = () => {
   $.gulp.task('css:dev', () => {
 
     return $.gulp.src(`${$.css}/*.sss`)
+                .pipe($.gp.plumber({ errorHandler: handlerError }))
                 .pipe($.gp.sourcemaps.init({loadMaps: true}))
                 .pipe($.gp.postcss(plugins, { parser: sugarss }))
                 // .pipe($.cached('css'))

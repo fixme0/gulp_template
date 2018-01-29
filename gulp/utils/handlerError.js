@@ -1,7 +1,5 @@
-let notify = $.gp.notify;
-
 module.exports = function(...args) {
-  notify.onErorr({
+  $.gp.notify.onError({
     title: 'Compile Erorr',
     message: '<%= error.message %>',
   }).apply(this, args);
